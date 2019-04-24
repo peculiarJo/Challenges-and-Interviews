@@ -1,4 +1,4 @@
-## Javascript
+## JavaScript
 
 1. Create a sleep function using promise  
 ```
@@ -73,7 +73,7 @@ function retry(promiseFun, sleepTime, retries){
   - HTTP 1.1 expands on the caching support a lot by using something called 'entity tag'. If 2 resources are the same, then they will have the same entity tags. HTTP 1.1 also adds the If-Unmodified-Since, If-Match, If-None-Match conditional headers. There are also further additions relating to caching like the Cache-Control header.
 - Extended: http1.1 vs http 2.2 https://medium.com/@factoryhr/http-2-the-difference-between-http-1-1-benefits-and-how-to-use-it-38094fa0e95b
   
-5. Differences between localStorage and sessionStorage
+5. Differences between localStorage and sessionStorage  
 The data stored in localStorage persists until explicitly deleted. Changes made are saved and available for all current and future visits to the site.
 For sessionStorage, changes are only available per tab. Changes made are saved and available for the current page in the that tab until it is closed. Once it is closed, the stored data is deleted.
 
